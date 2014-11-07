@@ -2,13 +2,16 @@
   "name": "todoMVC",
   "version": "0.0.0",
   "description": "test app using browserify to replace angular injector",
-  "main": "dist/todoMVC.js",
+  "main": "src/todoMVC.js",
   "scripts": {
     "test": "grunt test --verbose"
   },
   "author": "Ryan Chen <ryan.chen@turn.com>",
-  "license": "Apache2",
-  "repository": "git://stash.turn.com:7999/cnsl/todoMVC.git",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryancat/angular-browserify.git"
+  },
   "devDependencies": {
     "grunt": "~0.4.4",
     "express": "~4.7.2",
