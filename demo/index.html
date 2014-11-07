@@ -1,0 +1,34 @@
+<!doctype html>
+<html ng-app="demo">
+<head>
+
+	<meta charset="utf-8">
+
+	<title>todoMVC demo</title>
+
+	<link rel="stylesheet" href="../dist/todoMVC.css">
+
+	<style>
+
+		/* ... */
+
+	</style>
+
+</head>
+<body ng-controller="mainCtrl">
+	
+	
+	<script src="../dist/todoMVC.js"></script>
+	<script>
+
+		angular
+		.module('demo', ['turn/todomvc'])
+		.controller('mainCtrl', function ($scope) {
+
+			// ...
+			
+		});
+
+	</script>
+</body>
+</html>

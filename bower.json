@@ -1,0 +1,21 @@
+{
+	"name": "todoMVC",
+	"version": "0.0.0",
+	"description": "test app using browserify to replace angular injector",
+	"main": "dist/todoMVC.js",
+	"authors": [
+		"Ryan Chen <ryan.chen@turn.com>"
+	],
+	"license": "Apache2",
+	"dependencies": {
+		
+	},
+	"devDependencies": {
+		"angular-mocks": "~1.0.8"
+	},
+	"ignore": [
+		"test",
+		"Gruntfile.coffee",
+		"demo"
+	]
+}
